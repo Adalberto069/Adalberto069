@@ -17,7 +17,7 @@ export function createEngine(){
  const commands={
  help:()=>[line("COMANDOS","accent"),line("whoami · projects · skills · certificates · lab"),line("ls · cat <arquivo> · echo <texto> · date · clear"),line("rabbit · decode <base64> · answer <resposta> · reset")],
  whoami:()=>[line("HIDDENWARE404","accent"),line("Adalberto Carlos // dev, gamer e explorador de sistemas.")],
- projects:()=>[link("AIScan","https://github.com/Adalberto069/Aiscan"),link("Modder's Hub","https://github.com/Adalberto069/modder-s-hub"),link("HIDDENIA","https://github.com/Adalberto069/HIDDENIA")],
+ projects:()=>[link("AIScan","https://github.com/Adalberto069/Aiscan"),link("HiddenMod — Modder's Hub","https://hiddenmod.com.br/"),link("HIDDENIA","https://github.com/Adalberto069/HIDDENIA")],
  skills:()=>[line("Python · TypeScript · JavaScript · Lua"),line("React · Node.js · SQL · Linux"),line("Segurança de aplicações · automação · laboratórios")],
  certificates:()=>[link("Central de formação","https://github.com/Adalberto069/Adalberto069/tree/main/certificados")],
  lab:()=>[link("HiddenLab","https://github.com/Adalberto069/Adalberto069/tree/main/labs")],

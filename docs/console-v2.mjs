@@ -1,4 +1,4 @@
-import {createEngine} from './engine.mjs';
+import {createEngine} from './engine.mjs?v=showcase1';
 import {createConsole,createSequence,rabbitFrames} from './console-core-v2.mjs?v=2.1';
 import {createAsciiRenderer} from './ascii-gallery.mjs?v=2.1';
 const gallery=createAsciiRenderer();

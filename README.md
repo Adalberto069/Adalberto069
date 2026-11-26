@@ -55,7 +55,7 @@ Uma exploração prática da segurança web: um framework modular de auditoria a
 
 Minha plataforma web para a comunidade gamer e de modding, com catálogo de conteúdo, scripts e colaboração. O projeto está disponível online em domínio próprio.
 
-[Repositório](https://github.com/Adalberto069/modder-s-hub) · [🌐 Site oficial](https://hiddenmod.com.br/) · [Arquitetura](https://github.com/Adalberto069/modder-s-hub/blob/main/docs/ARCHITECTURE.md)
+[🌐 Site oficial](https://hiddenmod.com.br/) · [Apresentação técnica](showcase/hiddenmod/README.md)
 
 ### 🌌 [HIDDENIA / OSONE](https://github.com/Adalberto069/HIDDENIA)
 
