@@ -49,13 +49,13 @@ Uma exploração prática da segurança web: um framework modular de auditoria a
 
 [Repositório](https://github.com/Adalberto069/Aiscan) · [Arquitetura](https://github.com/Adalberto069/Aiscan/blob/main/docs/ARCHITECTURE.md)
 
-### 🎮 [Modder's Hub](https://github.com/Adalberto069/modder-s-hub)
+### 🎮 [HiddenMod — Modder's Hub](https://hiddenmod.com.br/)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-176B50?style=flat-square&logo=supabase&logoColor=white)
 
-Um projeto que reúne meu interesse por jogos, comunidades e desenvolvimento web. A plataforma explora catálogo, gerenciamento de conteúdo e colaboração.
+Minha plataforma web para a comunidade gamer e de modding, com catálogo de conteúdo, scripts e colaboração. O projeto está disponível online em domínio próprio.
 
-[Repositório](https://github.com/Adalberto069/modder-s-hub) · [Aplicação](https://hiddenmod.lovable.app) · [Arquitetura](https://github.com/Adalberto069/modder-s-hub/blob/main/docs/ARCHITECTURE.md)
+[Repositório](https://github.com/Adalberto069/modder-s-hub) · [🌐 Site oficial](https://hiddenmod.com.br/) · [Arquitetura](https://github.com/Adalberto069/modder-s-hub/blob/main/docs/ARCHITECTURE.md)
 
 ### 🌌 [HIDDENIA / OSONE](https://github.com/Adalberto069/HIDDENIA)
 
