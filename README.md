@@ -16,10 +16,15 @@ Gosto de entender como os sistemas funcionam por dentro. Minha curiosidade me le
 
 ## 🧩 Um pouco sobre mim
 
-- 💻 Transformando ideias em software e experimentando novas tecnologias.
-- 🛡️ Interesse em segurança de aplicações e auditoria em ambientes autorizados.
-- 🎮 Jogos e modding fazem parte da minha inspiração para criar.
-- ⚙️ Estudando arquitetura, integração de APIs e bancos de dados.
+Sou autodidata. Gosto de ir além da interface e descobrir o que acontece por trás do código — como uma aplicação conversa com o banco, como os componentes se conectam e como podemos tornar tudo mais seguro.
+
+- 🛡️ Minha trajetória profissional passa pela segurança da informação: atuei como analista de julho de 2022 a abril de 2024, com testes de segurança, análise de vulnerabilidades e controles de acesso.
+- 🧪 No tempo livre, gosto de participar de CTFs, montar laboratórios próprios e desenvolver scripts para automatizar tarefas.
+- 🎮 Jogos e modding também inspiram meus projetos.
+- 💻 Uso o desenvolvimento de software como uma forma de explorar ideias e aprender na prática.
+- 🌍 Português nativo e inglês intermediário alto.
+
+Meu interesse em segurança ofensiva está voltado a ambientes de laboratório, CTFs e avaliações autorizadas.
 
 ## 🚀 O que estou construindo
 
@@ -62,6 +67,23 @@ Um assistente digital experimental para explorar interfaces multimodais, memóri
 ![Git](https://img.shields.io/badge/Git-C43D26?style=for-the-badge&logo=git&logoColor=white)
 
 Também exploro SQL, Express, Vite, APIs REST, WebSocket, testes e controle de acesso.
+
+## 🎓 Minha trajetória de aprendizado
+
+| Curso concluído | Instituição / plataforma | Ano |
+| --- | --- | --- |
+| Cibersec Box | Hotmart | 2025 |
+| Segurança da Informação / Pentest | Udemy | 2024 |
+| Pentest: Hacking e Segurança da Informação | Técnicas de Invasão FCO | 2023 |
+
+### 🛠️ Ferramentas de segurança
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-EE7624?style=flat-square&logo=burpsuite&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+Áreas de interesse: segurança web, análise de vulnerabilidades, automação de testes e engenharia reversa.
 
 ## 🧪 HiddenLab — estudos e experimentos
 
