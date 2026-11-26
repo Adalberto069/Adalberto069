@@ -14,6 +14,8 @@ Gosto de entender como os sistemas funcionam por dentro. Minha curiosidade me le
 
 `BUILD` · `EXPLORE` · `LEARN` · `IMPROVE`
 
+<p align="center"><img src="assets/terminal.svg" alt="Terminal HIDDENWARE404: curiosity is my programming language" width="100%"></p>
+
 ## 🧩 Um pouco sobre mim
 
 Sou autodidata. Gosto de ir além da interface e descobrir o que acontece por trás do código — como uma aplicação conversa com o banco, como os componentes se conectam e como podemos tornar tudo mais seguro.
@@ -96,7 +98,21 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
 [![Seguidores](https://img.shields.io/github/followers/Adalberto069?style=flat-square&logo=github&label=Seguidores)](https://github.com/Adalberto069?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Adalberto069?style=flat-square&logo=github&label=Estrelas)](https://github.com/Adalberto069?tab=repositories)
 
-[Atividade e contribuições públicas](https://github.com/Adalberto069#year-list)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Adalberto069&amp;show_icons=true&amp;theme=radical&amp;hide_border=true" alt="Estatísticas públicas do GitHub" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adalberto069&amp;layout=compact&amp;theme=radical&amp;hide_border=true" alt="Linguagens nos repositórios públicos" width="40%">
+</p>
+
+<sub>Cartões de serviços externos: dados públicos disponíveis; proporção de código não mede domínio de uma linguagem.</sub>
+
+### 🏆 Achievements
+
+[Conquistas no perfil do GitHub](https://github.com/Adalberto069?tab=achievements) · [Histórico público de contribuições](https://github.com/Adalberto069#year-list)
+
+### 🐍 Contribution Snake
+
+[Animação de contribuições — geração automática](https://github.com/Adalberto069/Adalberto069/actions/workflows/profile-snake.yml)
+
 
 ## 🎮 Easter egg
 
@@ -122,4 +138,5 @@ I'm Adalberto Carlos, also known as HIDDENWARE404. I enjoy exploring how softwar
 
 ---
 
+<p align="center"><strong>Curiosity is my programming language.</strong></p>
 <p align="center"><sub>HIDDENWARE404 · Stay curious. Keep building.</sub></p>
