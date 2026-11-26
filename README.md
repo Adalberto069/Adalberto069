@@ -124,7 +124,7 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
 
 `404: Limits not found.`
 
-Meu portfólio em forma de terminal. Explore projetos, habilidades e descubra a primeira pista do Rabbit Hole.
+Meu portfólio em forma de console retrô. Explore os módulos, os banners ASCII e siga o coelho branco até o Rabbit Hole.
 
 [🌐 Acessar HiddenTerminal](https://adalberto069.github.io/Adalberto069/) · [Código e instruções](docs/README.md)
 
