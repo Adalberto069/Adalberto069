@@ -24,11 +24,9 @@ Meu portfólio reúne projetos de desenvolvimento web, automação e segurança 
 - **Dados:** PostgreSQL, Supabase e Firebase.
 - **Qualidade e segurança:** Git, testes automatizados, controle de acesso e auditoria de aplicações.
 
-## Em desenvolvimento
+## Estudos e desenvolvimento
 
-**[Laboratório de migração PostgreSQL → Oracle](labs/postgres-oracle/README.md):** projeto de estudo com esquemas SQL, script de transferência e verificação de integridade. Validação em bancos reais pendente.
-
-Aprofundamento em arquitetura de software, modelagem de bancos de dados, testes e segurança. Os projetos possuem diferentes estágios de maturidade; consulte a documentação de cada repositório para conhecer seu escopo.
+Estudos em arquitetura de software, integração de sistemas, bancos de dados, testes e segurança. [Laboratórios e experimentos técnicos](labs/). Os projetos possuem diferentes estágios de maturidade; consulte a documentação de cada repositório para conhecer seu escopo.
 
 ## English summary
 
