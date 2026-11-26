@@ -126,7 +126,7 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
 
 Meu portfólio em forma de terminal. Explore projetos, habilidades e descubra a primeira pista do Rabbit Hole.
 
-[HiddenTerminal — código e instruções](docs/README.md)
+[🌐 Acessar HiddenTerminal](https://adalberto069.github.io/Adalberto069/) · [Código e instruções](docs/README.md)
 
 ## 🎮 Easter egg
 
