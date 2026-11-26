@@ -72,16 +72,19 @@ Também exploro SQL, Express, Vite, APIs REST, WebSocket, testes e controle de a
 
 ## 🎓 Minha trajetória de aprendizado
 
-![Formação](https://img.shields.io/badge/Formação-9_registros-7C3AED?style=flat-square) ![Horas](https://img.shields.io/badge/Carga_horária_documentada-115h-0891B2?style=flat-square)
+![Certificados](https://img.shields.io/badge/Certificados-17-7C3AED?style=flat-square) ![Formação](https://img.shields.io/badge/Formação-19_registros-2563EB?style=flat-square) ![Horas](https://img.shields.io/badge/Carga_nominal-135h-0891B2?style=flat-square)
 
-Aprendizado contínuo em cibersegurança, programação, Linux e infraestrutura.
+Aprendizado contínuo em cibersegurança, inteligência artificial, programação, Linux e infraestrutura.
 
 - 🛡️ Treinamento de Segurança Ofensiva e Teste de Invasão — Técnicas de Invasão (100h).
-- 🔐 Princípios da Cibersegurança e módulo introdutório da Aceleração Santander — DIO.
-- 💻 Lua Fundamentals.
-- 🐧 Sistemas operacionais, Linux e máquinas virtuais — DIO.
+- 🔐 Princípios da Cibersegurança e cursos introdutórios Santander — DIO.
+- 🤖 Fundamentos de IA moderna, LLMs, agentes e engenharia de prompts — DIO.
+- 💻 Lua Fundamentals — Coddy.
+- 🐧 Linux, sistemas operacionais e máquinas virtuais — DIO.
 
 **[Explorar a central de formação e certificados](certificados/README.md)** — cursos, instituições, datas e cargas horárias.
+
+<sub>135h nominais incluindo módulos; 120h excluindo os dois módulos agregados. 17 certificados e 2 registros do currículo.</sub>
 
 ### 🛠️ Ferramentas de segurança
 
