@@ -2,10 +2,6 @@
   <img src="https://i.kym-cdn.com/photos/images/original/001/764/508/879" alt="The Konami Code — releitura gamer de A Última Ceia" width="100%">
 </p>
 
-<p align="center">
-  <sub><a href="https://knowyourmeme.com/photos/1764508-konami-code">The Konami Code</a> · cultura gamer</sub>
-</p>
-
 # E aí, dev! 👋
 
 Sou **Adalberto Carlos**, também conhecido como **HIDDENWARE404**.

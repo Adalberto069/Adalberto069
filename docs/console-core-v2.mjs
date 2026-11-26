@@ -60,19 +60,18 @@ export function rabbitFrames(){
 export function createConsole(base,random=Math.random){
  const line=(text,kind="normal")=>({text,kind});
  const banner=()=>line(getBanners()[Math.min(2,Math.max(0,Math.floor(random()*3)))],"ascii");
- const boot=()=>[banner(),line("H I D D E N W A R E 4 0 4","accent"),line("HiddenTerminal Framework v2.0"),line("404: Limits not found.","accent"),line("[*] Initializing local console...","muted"),line("[+] Portfolio and Rabbit Hole ready","accent"),line("Digite help ou show modules. Follow the white rabbit.","muted")];
+ const boot=()=>[banner(),line("H I D D E N W A R E 4 0 4","accent"),line("HiddenTerminal Framework v2.0.1"),line("404: Limits not found.","accent"),line("[*] Initializing local console...","muted"),line("[+] Portfolio and Rabbit Hole ready","accent"),line("Digite help ou show modules. Follow the white rabbit.","muted")];
  function run(raw){
   const cmd=String(raw).trim().toLowerCase().replace(/\s+/g," ");
   if(cmd==="banner")return {lines:[banner(),line("404: Limits not found.","accent")]};
-  if(cmd==="version")return {lines:[line("HiddenTerminal Framework v2.0 // Rabbit Hole Edition","accent"),line("HTML · CSS · JavaScript | Local simulated shell")]};
+  if(cmd==="version")return {lines:[line("HiddenTerminal Framework v2.0.1 // Rabbit Hole Edition","accent"),line("HTML · CSS · JavaScript | Local simulated shell")]};
   if(cmd==="show modules")return {lines:[line("AVAILABLE MODULES","accent"),line("rabbit/encoding   [challenge]"),line("portfolio         [projects]"),line("hiddenlab         [source code]"),line("certificates      [learning]"),line("Use: use <module>","muted")]};
   if(cmd.startsWith("use ")){
    const aliases={"rabbit/encoding":"rabbit","portfolio":"projects","hiddenlab":"lab","certificates":"certificates"};
    const name=cmd.slice(4);
    return Object.hasOwn(aliases,name)?run(aliases[name]):{lines:[line("Módulo desconhecido. Digite show modules.","error")]};
   }
-  if(cmd==="sound"||cmd==="sound on"||cmd==="sound off")return {sound:cmd==="sound"?"toggle":cmd.slice(6),lines:[]};
-  if(cmd==="help"){const r=base.run(raw);return {...r,lines:[...r.lines,line("banner · version · show modules · use <module>"),line("sound on / sound off · sound (alternar)")]}}
+  if(cmd==="help"){const r=base.run(raw);return {...r,lines:[...r.lines,line("banner · version · show modules · use <module>")]}}
   const result=base.run(raw);
   if(cmd==="rabbit")return {...result,effect:"rabbit"};
   return result;
