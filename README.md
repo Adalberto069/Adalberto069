@@ -78,6 +78,24 @@ Também exploro SQL, Express, Vite, APIs REST, WebSocket, testes e controle de a
 | Segurança da Informação / Pentest | Udemy | 2024 |
 | Pentest: Hacking e Segurança da Informação | Técnicas de Invasão FCO | 2023 |
 
+### 📚 Cursos de atualização — DIO
+
+![DIO](https://img.shields.io/badge/DIO-4_cursos_documentados-7C3AED?style=flat-square) ![Carga horária](https://img.shields.io/badge/Carga_horária-14h-0891B2?style=flat-square)
+
+<details>
+<summary>Ver certificados de conclusão e carga horária</summary>
+
+| Curso | Carga horária | Conclusão |
+| --- | ---: | --- |
+| Conceitos e Práticas de Sistemas Operacionais e Máquinas Virtuais | 2h | 20/11/2026 |
+| Princípios da Cibersegurança | 2h | 20/11/2026 |
+| O Essencial Sobre Linux e Máquinas Virtuais | 8h | 20/11/2026 |
+| Gerenciando Usuários no Linux | 2h | 20/11/2026 |
+
+Instituição: [DIO — Digital Innovation One](https://www.dio.me/). Links individuais de validação ainda não confirmados.
+
+</details>
+
 ### 🛠️ Ferramentas de segurança
 
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-EE7624?style=flat-square&logo=burpsuite&logoColor=white)
