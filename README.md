@@ -26,7 +26,7 @@ Meu portfólio reúne projetos de desenvolvimento web, automação e segurança 
 
 ## Em desenvolvimento
 
-**Laboratório de banco de dados:** estudo de migração PostgreSQL → Oracle, com modelagem, transformação de tipos e validação de integridade. Em preparação; ainda não validado em Oracle.
+**[Laboratório de migração PostgreSQL → Oracle](labs/postgres-oracle/README.md):** projeto de estudo com esquemas SQL, script de transferência e verificação de integridade. Validação em bancos reais pendente.
 
 Aprofundamento em arquitetura de software, modelagem de bancos de dados, testes e segurança. Os projetos possuem diferentes estágios de maturidade; consulte a documentação de cada repositório para conhecer seu escopo.
 
