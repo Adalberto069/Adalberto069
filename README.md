@@ -20,13 +20,24 @@ Gosto de entender como os sistemas funcionam por dentro. Minha curiosidade me le
 
 Sou autodidata. Gosto de ir além da interface e descobrir o que acontece por trás do código — como uma aplicação conversa com o banco, como os componentes se conectam e como podemos tornar tudo mais seguro.
 
-- 🛡️ Minha trajetória profissional passa pela segurança da informação: atuei como analista de julho de 2022 a abril de 2024, com testes de segurança, análise de vulnerabilidades e controles de acesso.
 - 🧪 No tempo livre, gosto de participar de CTFs, montar laboratórios próprios e desenvolver scripts para automatizar tarefas.
 - 🎮 Jogos e modding também inspiram meus projetos.
 - 💻 Uso o desenvolvimento de software como uma forma de explorar ideias e aprender na prática.
 - 🌍 Português nativo e inglês intermediário alto.
 
 Meu interesse em segurança ofensiva está voltado a ambientes de laboratório, CTFs e avaliações autorizadas.
+
+## 💼 Experiência profissional
+
+### Analista de Segurança da Informação
+
+**X-Pay Gestão de Pagamentos Ltda.** · Julho de 2022 – Abril de 2024
+
+- Configuração e manutenção de firewall e controles de acesso.
+- Monitoramento de ameaças e incidentes de segurança.
+- Testes de segurança em aplicações e redes.
+- Identificação e correção de vulnerabilidades.
+- Implementação de medidas de proteção de dados.
 
 ## 🚀 O que estou construindo
 
@@ -53,6 +64,16 @@ Um projeto que reúne meu interesse por jogos, comunidades e desenvolvimento web
 Um assistente digital experimental para explorar interfaces multimodais, memória contextual, workspace e integração de serviços.
 
 [Repositório](https://github.com/Adalberto069/HIDDENIA) · [Arquitetura](https://github.com/Adalberto069/HIDDENIA/blob/main/docs/ARCHITECTURE.md)
+
+### 🗄️ [PostgreSQL → Oracle | Laboratório de migração](labs/postgres-oracle/)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle_Database-F80000?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
+
+Laboratório de desenvolvimento para estudar migração entre bancos relacionais, mapeamento de tipos SQL, transferência de dados com Python, preservação de chaves e relacionamentos, validação de integridade e controle de transações com commit e rollback.
+
+**Status:** implementação inicial; validação em instâncias reais de PostgreSQL e Oracle pendente.
+
+[Documentação técnica e código](labs/postgres-oracle/README.md)
 
 ## ⚙️ Tecnologias que fazem parte dos meus projetos
 
