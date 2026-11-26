@@ -111,7 +111,9 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
 
 ### 🐍 Contribution Snake
 
-[Animação de contribuições — geração automática](https://github.com/Adalberto069/Adalberto069/actions/workflows/profile-snake.yml)
+<p align="center"><img src="assets/snake.svg" alt="Animação Snake baseada nas contribuições do GitHub" width="100%"></p>
+
+[Automação de atualização diária](https://github.com/Adalberto069/Adalberto069/actions/workflows/profile-snake.yml)
 
 
 ## 🎮 Easter egg
