@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/kpopdev/kpopdev/refs/heads/main/39e631dcf3a8c87ba024a6520c0a5766.jpg" alt="The Konami Code — releitura gamer de A Última Ceia" width="100%">
+<img src="https://i.kym-cdn.com/photos/images/original/000/363/926/535.png" alt="The Konami Code — paródia gamer de A Última Ceia" width="100%">
 
-<sub>Referência visual: [imagem exibida no perfil kpopdev](https://github.com/kpopdev). Autoria original não verificada.</sub>
+<sub>[The Konami Code — referência visual](https://knowyourmeme.com/photos/363926-the-last-supper-parodies). Autoria original não verificada.</sub>
 
 # Adalberto Carlos
 
