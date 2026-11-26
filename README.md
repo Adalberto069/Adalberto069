@@ -1,4 +1,6 @@
-![Adalberto Carlos — HIDDENWARE404](assets/profile-banner.svg)
+<img src="https://raw.githubusercontent.com/kpopdev/kpopdev/refs/heads/main/39e631dcf3a8c87ba024a6520c0a5766.jpg" alt="The Konami Code — releitura gamer de A Última Ceia" width="100%">
+
+<sub>Referência visual: [imagem exibida no perfil kpopdev](https://github.com/kpopdev). Autoria original não verificada.</sub>
 
 # Adalberto Carlos
 
