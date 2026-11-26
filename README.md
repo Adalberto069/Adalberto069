@@ -133,6 +133,8 @@ Meu portfólio em forma de console retrô. Explore os módulos, os banners ASCII
 
 Uma pequena homenagem à cultura gamer e aos segredos escondidos nos jogos.
 
+[Conheça a história do Konami Code na Wikipédia](https://pt.wikipedia.org/wiki/C%C3%B3digo_Konami).
+
 </details>
 
 ## 🌐 Conecte-se comigo
