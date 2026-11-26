@@ -31,7 +31,7 @@ Meu interesse em segurança ofensiva está voltado a ambientes de laboratório, 
 
 ### Analista de Segurança da Informação
 
-**X-Pay Gestão de Pagamentos Ltda.** · Julho de 2022 – Abril de 2024
+Julho de 2022 – Abril de 2024
 
 - Configuração e manutenção de firewall e controles de acesso.
 - Monitoramento de ameaças e incidentes de segurança.
@@ -64,16 +64,6 @@ Um projeto que reúne meu interesse por jogos, comunidades e desenvolvimento web
 Um assistente digital experimental para explorar interfaces multimodais, memória contextual, workspace e integração de serviços.
 
 [Repositório](https://github.com/Adalberto069/HIDDENIA) · [Arquitetura](https://github.com/Adalberto069/HIDDENIA/blob/main/docs/ARCHITECTURE.md)
-
-### 🗄️ [PostgreSQL → Oracle | Laboratório de migração](labs/postgres-oracle/)
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle_Database-F80000?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
-
-Laboratório de desenvolvimento para estudar migração entre bancos relacionais, mapeamento de tipos SQL, transferência de dados com Python, preservação de chaves e relacionamentos, validação de integridade e controle de transações com commit e rollback.
-
-**Status:** implementação inicial; validação em instâncias reais de PostgreSQL e Oracle pendente.
-
-[Documentação técnica e código](labs/postgres-oracle/README.md)
 
 ## ⚙️ Tecnologias que fazem parte dos meus projetos
 
