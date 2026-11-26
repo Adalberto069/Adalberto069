@@ -2,6 +2,10 @@
   <img src="https://i.kym-cdn.com/photos/images/original/001/764/508/879" alt="The Konami Code — releitura gamer de A Última Ceia" width="100%">
 </p>
 
+<p align="center">
+  <sub><a href="https://pt.wikipedia.org/wiki/C%C3%B3digo_Konami">The Konami Code</a> · cultura gamer</sub>
+</p>
+
 # E aí, dev! 👋
 
 Sou **Adalberto Carlos**, também conhecido como **HIDDENWARE404**.
@@ -132,8 +136,6 @@ Meu portfólio em forma de console retrô. Explore os módulos, os banners ASCII
 `↑ ↑ ↓ ↓ ← → ← → B A START`
 
 Uma pequena homenagem à cultura gamer e aos segredos escondidos nos jogos.
-
-[Conheça a história do Konami Code na Wikipédia](https://pt.wikipedia.org/wiki/C%C3%B3digo_Konami).
 
 </details>
 
