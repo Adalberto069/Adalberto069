@@ -4,11 +4,9 @@ Minha jornada de aprendizado em segurança da informação, inteligência artifi
 
 ![Certificados](https://img.shields.io/badge/Certificados-17-7C3AED?style=for-the-badge)
 ![Formação](https://img.shields.io/badge/Formação-19_registros-2563EB?style=for-the-badge)
-![Horas](https://img.shields.io/badge/Carga_nominal-135h-0891B2?style=for-the-badge)
+![Horas](https://img.shields.io/badge/Carga_horária-120h%2B-0891B2?style=for-the-badge)
 
-**17 certificados de cursos e módulos · 2 formações complementares.**
-
-**135h** de carga horária dos certificados (120h sem os dois módulos agregados).
+Aprendendo na prática, um curso de cada vez.
 
 ## 🛡️ Cibersegurança e pentest
 

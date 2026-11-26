@@ -72,7 +72,7 @@ Também exploro SQL, Express, Vite, APIs REST, WebSocket, testes e controle de a
 
 ## 🎓 Minha trajetória de aprendizado
 
-![Certificados](https://img.shields.io/badge/Certificados-17-7C3AED?style=flat-square) ![Formação](https://img.shields.io/badge/Formação-19_registros-2563EB?style=flat-square) ![Horas](https://img.shields.io/badge/Carga_nominal-135h-0891B2?style=flat-square)
+![Certificados](https://img.shields.io/badge/Certificados-17-7C3AED?style=flat-square) ![Formação](https://img.shields.io/badge/Formação-19_registros-2563EB?style=flat-square) ![Horas](https://img.shields.io/badge/Carga_horária-120h%2B-0891B2?style=flat-square)
 
 Aprendizado contínuo em cibersegurança, inteligência artificial, programação, Linux e infraestrutura.
 
@@ -83,8 +83,6 @@ Aprendizado contínuo em cibersegurança, inteligência artificial, programaçã
 - 🐧 Linux, sistemas operacionais e máquinas virtuais — DIO.
 
 **[Explorar a central de formação e certificados](certificados/README.md)** — cursos, instituições, datas e cargas horárias.
-
-<sub>17 certificados de cursos e módulos · 2 formações complementares.</sub>
 
 ### 🛠️ Ferramentas de segurança
 
