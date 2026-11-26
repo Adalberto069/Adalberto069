@@ -120,6 +120,14 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
 [Automação de atualização diária](https://github.com/Adalberto069/Adalberto069/actions/workflows/profile-snake.yml)
 
 
+## 🖥️ HiddenTerminal
+
+`404: Limits not found.`
+
+Meu portfólio em forma de terminal. Explore projetos, habilidades e descubra a primeira pista do Rabbit Hole.
+
+[HiddenTerminal — código e instruções](docs/README.md)
+
 ## 🎮 Easter egg
 
 <details>
