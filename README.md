@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="https://knowyourmeme.com/photos/1764508-konami-code">The Konami Code</a> · referência à cultura dos videogames · autoria original não confirmada</sub>
+  <sub><a href="https://knowyourmeme.com/photos/1764508-konami-code">The Konami Code</a> · cultura gamer</sub>
 </p>
 
 # E aí, dev! 👋
@@ -84,7 +84,7 @@ Aprendizado contínuo em cibersegurança, inteligência artificial, programaçã
 
 **[Explorar a central de formação e certificados](certificados/README.md)** — cursos, instituições, datas e cargas horárias.
 
-<sub>135h nominais incluindo módulos; 120h excluindo os dois módulos agregados. 17 certificados e 2 registros do currículo.</sub>
+<sub>17 certificados de cursos e módulos · 2 formações complementares.</sub>
 
 ### 🛠️ Ferramentas de segurança
 
@@ -110,8 +110,6 @@ Nem toda ideia precisa nascer como um produto. Aqui ficam experiências de desen
   <img src="https://github-readme-stats.vercel.app/api?username=Adalberto069&amp;show_icons=true&amp;theme=radical&amp;hide_border=true" alt="Estatísticas públicas do GitHub" width="49%">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adalberto069&amp;layout=compact&amp;theme=radical&amp;hide_border=true" alt="Linguagens nos repositórios públicos" width="40%">
 </p>
-
-<sub>Cartões de serviços externos: dados públicos disponíveis; proporção de código não mede domínio de uma linguagem.</sub>
 
 ### 🏆 Achievements
 
