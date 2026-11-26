@@ -1,3 +1,5 @@
+![Adalberto Carlos — HIDDENWARE404](assets/profile-banner.svg)
+
 # Adalberto Carlos
 
 **Desenvolvimento de software | Bancos de dados | Integração de sistemas | Segurança de aplicações**
@@ -14,6 +16,8 @@ Meu portfólio reúne projetos de desenvolvimento web, automação e segurança 
 
 ## Tecnologias presentes no portfólio
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-417E38?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-176B50?style=flat-square&logo=supabase&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white) ![Git](https://img.shields.io/badge/Git-C43D26?style=flat-square&logo=git&logoColor=white)
+
 - **Linguagens:** Python, TypeScript, JavaScript, SQL e Lua.
 - **Frontend:** React, Vite e Tailwind CSS.
 - **Backend e integrações:** Node.js, Express, APIs REST e WebSocket.
@@ -22,7 +26,13 @@ Meu portfólio reúne projetos de desenvolvimento web, automação e segurança 
 
 ## Em desenvolvimento
 
+**Laboratório de banco de dados:** estudo de migração PostgreSQL → Oracle, com modelagem, transformação de tipos e validação de integridade. Em preparação; ainda não validado em Oracle.
+
 Aprofundamento em arquitetura de software, modelagem de bancos de dados, testes e segurança. Os projetos possuem diferentes estágios de maturidade; consulte a documentação de cada repositório para conhecer seu escopo.
+
+## English summary
+
+Software development portfolio focused on web applications, database integration and application security. Projects include a modular security audit framework, a community platform and an experimental digital assistant.
 
 ---
 
