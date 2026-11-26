@@ -3,7 +3,43 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="HiddenTerminal — portfólio interativo HIDDENWARE404"><title>HiddenTerminal // HIDDENWARE404</title><link rel="stylesheet" href="./terminal.css"></head>
 <body><main class="shell">
 <header><span class="lights" aria-hidden="true">● ● ●</span><span>HIDDENWARE404 / tty01</span><a href="https://github.com/Adalberto069">GitHub ↗</a></header>
-<section class="intro"><p class="kicker">PORTFOLIO / INTERACTIVE SHELL / V1.0</p><h1>HIDDEN<span>TERMINAL</span></h1><p class="slogan">404: Limits not found.</p><p>Explore meus projetos. Descubra o que está por trás do código.</p></section>
+<section class="intro"><p class="kicker">PORTFOLIO / INTERACTIVE SHELL / V1.1</p><h1>HIDDEN<span>TERMINAL</span></h1><p class="slogan">404: Limits not found.</p><p>Explore meus projetos. Descubra o que está por trás do código.</p></section>
+<figure class="rabbit-scene" id="rabbit-scene">
+  <svg viewBox="0 0 720 106" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <pattern id="rabbit-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#263b32" stroke-width=".6"/></pattern>
+      <g id="rabbit-sprite" stroke="#bdd8cb" stroke-width=".9" stroke-linejoin="round">
+        <path d="M-20-9H-25V-15H-19L-15-23H-3L4-28H16L20-24V-13L14-7H6L4-1H-5V-6H-16Z" fill="#edf8ee"/>
+        <path d="M5-26L1-46L4-49L9-46L12-29M13-27L14-50L18-53L22-49L19-28" fill="#edf8ee"/>
+        <path d="M5-44L8-32M18-47L17-33" stroke="#8bada1" stroke-width="1.8"/>
+        <path d="M-15-8L-10-13L-4-8M-10-1H-18M6-3H15" fill="none" stroke="#a2bfb0" stroke-width="1.5"/>
+        <path d="M14-20H17V-17H14Z" fill="#101816" stroke="none"/><path d="M20-15H23" stroke="#edf8ee" stroke-width="2"/>
+      </g>
+    </defs>
+    <rect x="0" y="0" width="720" height="106" rx="6" fill="#080e0b"/>
+    <rect x="0" y="0" width="720" height="106" rx="6" fill="url(#rabbit-grid)" opacity=".65"/>
+    <path d="M18 78H702" stroke="#355244" stroke-dasharray="3 7"/>
+    <path d="M126 78H597" stroke="#365646" stroke-dasharray="1 13" stroke-width="2"/>
+    <g class="rabbit-burrow">
+      <ellipse cx="655" cy="77" rx="39" ry="12" fill="#010504" stroke="#567b67" stroke-width="1.5"/>
+      <ellipse cx="655" cy="75" rx="28" ry="6.5" fill="#000"/>
+      <path d="M620 79Q655 91 690 79" fill="none" stroke="#8afab2" stroke-opacity=".55"/>
+    </g>
+    <g class="rabbit-idle"><use href="#rabbit-sprite"/></g>
+    <g class="rabbit-flight"><g class="rabbit-hop"><use href="#rabbit-sprite"/></g></g>
+    <g stroke="#9ac2ae" stroke-width="1.2" stroke-linejoin="round">
+      <ellipse cx="76" cy="41" rx="27" ry="6" fill="#050908"/>
+      <path d="M49 41L53 71H99L103 41Q76 49 49 41Z" fill="#111a17"/>
+      <path d="M53 64Q76 69 99 64L99 71H53Z" fill="#416755" stroke="none"/>
+      <path d="M33 71Q76 80 119 71L116 77Q76 89 36 77Z" fill="#131e19"/>
+      <path d="M33 71Q76 80 119 71" fill="none" stroke="#8afab2"/>
+    </g>
+    <text x="76" y="100" text-anchor="middle" fill="#91ae9f" font-size="9" letter-spacing="1.4">THE HAT</text>
+    <text x="655" y="100" text-anchor="middle" fill="#91ae9f" font-size="9" letter-spacing="1.4">THE HOLE</text>
+    <text x="365" y="18" text-anchor="middle" fill="#587c69" font-size="10" letter-spacing="2">FOLLOW THE WHITE RABBIT</text>
+  </svg>
+  <figcaption><span>Tem algo escondido por aqui...</span><button id="rabbit-trigger" type="button">Seguir o coelho ↗</button></figcaption>
+</figure>
 <section class="terminal" aria-label="Terminal interativo"><div class="output" id="output" role="log" aria-live="polite" aria-relevant="additions" tabindex="0"></div>
 <form id="command"><label for="input">visitor@hiddenware:~$</label><input id="input" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="2048" aria-label="Comando" placeholder="help"><button type="submit">Enter ↵</button></form></section>
 <nav aria-label="Comandos rápidos" id="quick"><button data-cmd="help">help</button><button data-cmd="projects">projects</button><button data-cmd="skills">skills</button><button data-cmd="rabbit">rabbit 🐇</button><button data-cmd="clear">clear</button></nav>

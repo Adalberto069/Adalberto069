@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {createRabbitAnimation} from './rabbit-animation.mjs';
+let id=0, flushes=0;
+const pending=new Map(), classes=new Set();
+const scene={classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)},getBoundingClientRect(){flushes++}};
+const clock={setTimeout(fn,delay){assert.equal(delay,3450);pending.set(++id,fn);return id},clearTimeout(i){pending.delete(i)}};
+const a=createRabbitAnimation(scene,clock);
+a.play();assert.ok(classes.has('is-running'));assert.equal(pending.size,1);
+a.play();assert.equal(flushes,2);assert.equal(pending.size,1);assert.ok(!pending.has(1));
+pending.get(2)();assert.ok(!classes.has('is-running'));assert.equal(pending.size,0);
+a.play();a.stop();assert.ok(!classes.has('is-running'));assert.equal(pending.size,0);
+a.stop();assert.equal(pending.size,0);
+console.log('Rabbit animation: replay, cleanup and cancellation passed.');

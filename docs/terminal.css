@@ -1,1 +1,29 @@
 :root{color-scheme:dark;--bg:#080c0c;--panel:#101816;--ink:#d6e8df;--green:#8afab2;--muted:#a2b4aa;--border:#30443b;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 25% 0,#192a24 0,transparent 50%),var(--bg);color:var(--ink);padding:clamp(12px,5vw,64px)}.shell{max-width:900px;margin:auto;border:1px solid var(--border);border-radius:12px;background:var(--panel);overflow:hidden;box-shadow:0 24px 90px #0008}header,footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;font-size:.75rem;color:var(--muted);flex-wrap:wrap}header{border-bottom:1px solid var(--border)}.lights{color:var(--green);letter-spacing:.15em}a{color:var(--green);text-underline-offset:3px}.intro{padding:32px 24px 20px}.kicker{font-size:.75rem;letter-spacing:.13em;color:var(--muted)}h1{font-size:clamp(1.65rem,6vw,3.3rem);letter-spacing:-.08em;margin:12px 0;overflow-wrap:anywhere}h1 span,.slogan{color:var(--green)}.slogan{font-weight:bold;font-size:1.1rem}.intro p:last-child{color:var(--muted);line-height:1.5}.terminal{margin:0 20px;border:1px solid var(--border);border-radius:8px;background:#080e0b}.output{height:clamp(220px,39vh,440px);overflow:auto;padding:16px;line-height:1.65;font-size:.88rem;white-space:pre-wrap;overflow-wrap:anywhere}.output p{margin:0 0 5px}.accent,.prompt{color:var(--green)}.error{color:#ffaaaa}form{display:flex;align-items:center;gap:8px;border-top:1px solid var(--border);padding:10px;flex-wrap:wrap}label{color:var(--green);font-size:.8rem}input{min-width:90px;flex:1;background:transparent;border:0;color:var(--ink);font:inherit;padding:8px}button{border:1px solid var(--border);background:#17251e;color:var(--green);font:inherit;font-size:.8rem;padding:8px 12px;border-radius:5px;cursor:pointer}button:hover{background:#24382b}button:focus-visible,a:focus-visible,input:focus-visible,.output:focus-visible{outline:2px solid var(--green);outline-offset:3px}nav{padding:14px 20px;display:flex;gap:8px;flex-wrap:wrap}footer{border-top:1px solid var(--border)}@media(max-width:480px){body{padding:8px}.intro{padding:20px 16px}.terminal{margin:0 10px}form label{flex-basis:100%}footer{font-size:.65rem}}
+/* Rabbit Hole — inline SVG, no external assets. */
+.rabbit-scene{margin:0 20px 16px}
+.rabbit-scene svg{display:block;width:100%;height:auto;border:1px solid var(--border);border-radius:7px;overflow:hidden}
+.rabbit-scene figcaption{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;color:var(--muted);font-size:.72rem}
+.rabbit-scene figcaption button{font-size:.72rem}
+.rabbit-idle{transform:translate(76px,73px);animation:rabbit-peek 5s ease-in-out infinite}
+.rabbit-flight{opacity:0;transform:translate(76px,73px)}
+.rabbit-scene.is-running .rabbit-idle{visibility:hidden;animation:none}
+.rabbit-scene.is-running .rabbit-flight{animation:rabbit-journey 3.3s linear both}
+.rabbit-scene.is-running .rabbit-burrow{animation:burrow-glow 3.3s ease-out}
+@keyframes rabbit-peek{0%,12%,100%{transform:translate(76px,101px)}24%,46%{transform:translate(76px,64px)}52%,64%{transform:translate(76px,73px)}76%,88%{transform:translate(76px,64px)}}
+@keyframes rabbit-journey{
+  0%{opacity:1;transform:translate(76px,73px)}
+  12%{opacity:1;transform:translate(76px,49px)}
+  22%{opacity:1;transform:translate(146px,78px)}
+  31%{transform:translate(214px,49px)}
+  40%{transform:translate(282px,78px)}
+  49%{transform:translate(350px,49px)}
+  58%{transform:translate(418px,78px)}
+  67%{transform:translate(486px,49px)}
+  76%{transform:translate(554px,78px)}
+  85%{transform:translate(620px,49px);opacity:1}
+  94%{transform:translate(655px,78px) scale(.67);opacity:1}
+  100%{transform:translate(655px,94px) scale(.15);opacity:0}
+}
+@keyframes burrow-glow{0%,85%{filter:none}95%{filter:drop-shadow(0 0 5px #8afab2)}100%{filter:none}}
+@media(max-width:480px){.rabbit-scene{margin:0 10px 12px}.rabbit-scene figcaption{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.rabbit-idle{animation:none;transform:translate(76px,64px)}.rabbit-scene.is-running .rabbit-flight{animation:none;opacity:1;transform:translate(655px,78px) scale(.67)}.rabbit-scene.is-running .rabbit-burrow{animation:none}}
