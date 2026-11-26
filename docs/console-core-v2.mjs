@@ -60,18 +60,21 @@ export function rabbitFrames(){
 export function createConsole(base,random=Math.random){
  const line=(text,kind="normal")=>({text,kind});
  const banner=()=>line(getBanners()[Math.min(2,Math.max(0,Math.floor(random()*3)))],"ascii");
- const boot=()=>[banner(),line("H I D D E N W A R E 4 0 4","accent"),line("HiddenTerminal Framework v2.0.1"),line("404: Limits not found.","accent"),line("[*] Initializing local console...","muted"),line("[+] Portfolio and Rabbit Hole ready","accent"),line("Digite help ou show modules. Follow the white rabbit.","muted")];
+ const boot=()=>[banner(),line("H I D D E N W A R E 4 0 4","accent"),line("HiddenTerminal Framework v2.1"),line("404: Limits not found.","accent"),line("[*] Initializing local console...","muted"),line("[+] Portfolio and Rabbit Hole ready","accent"),line("Digite help ou show modules. Follow the white rabbit.","muted")];
  function run(raw){
   const cmd=String(raw).trim().toLowerCase().replace(/\s+/g," ");
+  if(cmd==="ascii"||cmd==="ascii list")return {lines:[line("ASCII GALLERY // LIVE RENDERER","accent"),line("earth     — globo estilizado em rotação"),line("rabbit    — coelho 3D"),line("matrix    — chuva de caracteres"),line("cube      — cubo 3D"),line("wormhole  — túnel animado"),line("radar     — radar fictício"),line("Use ascii <nome>. Para sair: Ctrl+C ou stop.","muted")]};
+  if(cmd==="stop")return {lines:[line("[*] Console ready.","muted")]};
+  if(cmd.startsWith("ascii ")){const name=cmd.slice(6);return ["earth","rabbit","matrix","cube","wormhole","radar"].includes(name)?{animation:name,lines:[]}:{lines:[line("Animação desconhecida. Digite ascii list.","error")]}}
   if(cmd==="banner")return {lines:[banner(),line("404: Limits not found.","accent")]};
-  if(cmd==="version")return {lines:[line("HiddenTerminal Framework v2.0.1 // Rabbit Hole Edition","accent"),line("HTML · CSS · JavaScript | Local simulated shell")]};
+  if(cmd==="version")return {lines:[line("HiddenTerminal Framework v2.1 // Rabbit Hole Edition","accent"),line("HTML · CSS · JavaScript | Local simulated shell")]};
   if(cmd==="show modules")return {lines:[line("AVAILABLE MODULES","accent"),line("rabbit/encoding   [challenge]"),line("portfolio         [projects]"),line("hiddenlab         [source code]"),line("certificates      [learning]"),line("Use: use <module>","muted")]};
   if(cmd.startsWith("use ")){
    const aliases={"rabbit/encoding":"rabbit","portfolio":"projects","hiddenlab":"lab","certificates":"certificates"};
    const name=cmd.slice(4);
    return Object.hasOwn(aliases,name)?run(aliases[name]):{lines:[line("Módulo desconhecido. Digite show modules.","error")]};
   }
-  if(cmd==="help"){const r=base.run(raw);return {...r,lines:[...r.lines,line("banner · version · show modules · use <module>")]}}
+  if(cmd==="help"){const r=base.run(raw);return {...r,lines:[...r.lines,line("banner · version · show modules · use <module>"),line("ascii list · ascii <nome> · stop")]}}
   const result=base.run(raw);
   if(cmd==="rabbit")return {...result,effect:"rabbit"};
   return result;

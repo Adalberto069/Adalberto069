@@ -5,8 +5,8 @@ const e=createConsole(createEngine(),()=>.5);
 assert.equal(getBanners().length,3);
 assert.equal(e.boot()[0].text,getBanners()[1]);
 assert.equal(e.run('banner').lines[0].kind,'ascii');
-assert.match(e.run('version').lines[0].text,/v2\.0\.1/);
-assert.match(e.run('help').lines.at(-1).text,/show modules/);
+assert.match(e.run('version').lines[0].text,/v2\.1/);
+assert.match(e.run('help').lines.at(-2).text,/show modules/);
 assert.equal(e.run('show modules').lines.length,6);
 assert.equal(e.run('use portfolio').lines.length,3);
 assert.equal(e.run('use rabbit/encoding').effect,'rabbit');
@@ -23,3 +23,18 @@ function tick(){const [key,fn]=timers.entries().next().value;timers.delete(key);
 s.play(['a','b'],10,x=>seen.push(x),()=>finished++);assert.deepEqual(seen,['a']);tick();assert.deepEqual(seen,['a','b']);assert.equal(finished,1);
 s.play(['c','d'],10,x=>seen.push(x));s.cancel();assert.equal(timers.size,0);assert.equal(seen.at(-1),'c');
 console.log('HiddenTerminal v2: testes aprovados.');
+
+import {createAsciiRenderer} from './ascii-gallery.mjs';
+const gallery=createAsciiRenderer();
+for(const name of gallery.names){
+ assert.equal(e.run('ascii '+name).animation,name);
+ const a=gallery.frame(name,0),b=gallery.frame(name,1.3);
+ assert.equal(a.split('\n').length,30);
+ assert.ok(a.split('\n').every(row=>row.length===64));
+ assert.notEqual(a,b);
+ assert.ok(a.replace(/\s/g,'').length>70);
+}
+assert.equal(e.run('ascii __proto__').lines[0].kind,'error');
+assert.equal(e.run('ascii list').lines.length,8);
+assert.match(e.run('stop').lines[0].text,/ready/);
+assert.throws(()=>gallery.frame('__proto__'));
