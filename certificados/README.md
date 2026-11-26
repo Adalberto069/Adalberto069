@@ -21,7 +21,7 @@ Minha jornada de aprendizado em segurança da informação, desenvolvimento e in
 
 | Formação | Instituição | Conclusão | Horas | Evidência |
 | --- | --- | --- | ---: | --- |
-| Lua Fundamentals (seção concluída) | Emissor não identificado no documento | 13/07/2026 | — | Certificado |
+| Lua Fundamentals (seção concluída) | Coddy | 13/07/2026 | — | Certificado |
 
 ## 🐧 Linux e infraestrutura
 
